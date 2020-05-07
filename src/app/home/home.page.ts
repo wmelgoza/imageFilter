@@ -25,5 +25,11 @@ export class HomePage {
     { name: 'Bgr', value: 'bgr'},
   ];
 
+  slideOpts = {
+    slidesPerView: 3.5,
+    spaceBetween: 5,
+    slidesOffsetBefore: 20,
+    freeMode: true
+  };
   
 }
